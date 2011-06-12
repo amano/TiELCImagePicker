@@ -28,17 +28,17 @@
 		24DE9E1211C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E790A7E213A4ACC20031B787 /* ELCAlbumPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E790A7D813A4ACC20031B787 /* ELCAlbumPickerController.h */; };
+		E790A7E313A4ACC20031B787 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E790A7D913A4ACC20031B787 /* ELCAlbumPickerController.m */; };
+		E790A7E413A4ACC20031B787 /* ELCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = E790A7DA13A4ACC20031B787 /* ELCAsset.h */; };
+		E790A7E513A4ACC20031B787 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = E790A7DB13A4ACC20031B787 /* ELCAsset.m */; };
+		E790A7E613A4ACC20031B787 /* ELCAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E790A7DC13A4ACC20031B787 /* ELCAssetCell.h */; };
+		E790A7E713A4ACC20031B787 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E790A7DD13A4ACC20031B787 /* ELCAssetCell.m */; };
+		E790A7E813A4ACC20031B787 /* ELCAssetTablePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E790A7DE13A4ACC20031B787 /* ELCAssetTablePicker.h */; };
+		E790A7E913A4ACC20031B787 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E790A7DF13A4ACC20031B787 /* ELCAssetTablePicker.m */; };
+		E790A7EA13A4ACC20031B787 /* ELCImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E790A7E013A4ACC20031B787 /* ELCImagePickerController.h */; };
+		E790A7EB13A4ACC20031B787 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E790A7E113A4ACC20031B787 /* ELCImagePickerController.m */; };
 		E7B857F713A4A4FC00959E7E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B857F613A4A4FC00959E7E /* AssetsLibrary.framework */; };
-		E7B8580313A4A54700959E7E /* ELCAlbumPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */; };
-		E7B8580413A4A54700959E7E /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */; };
-		E7B8580513A4A54700959E7E /* ELCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FB13A4A54700959E7E /* ELCAsset.h */; };
-		E7B8580613A4A54700959E7E /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FC13A4A54700959E7E /* ELCAsset.m */; };
-		E7B8580713A4A54700959E7E /* ELCAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FD13A4A54700959E7E /* ELCAssetCell.h */; };
-		E7B8580813A4A54700959E7E /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FE13A4A54700959E7E /* ELCAssetCell.m */; };
-		E7B8580913A4A54700959E7E /* ELCAssetTablePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */; };
-		E7B8580A13A4A54700959E7E /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */; };
-		E7B8580B13A4A54700959E7E /* ELCImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B8580113A4A54700959E7E /* ELCImagePickerController.h */; };
-		E7B8580C13A4A54700959E7E /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B8580213A4A54700959E7E /* ELCImagePickerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,17 +60,17 @@
 		AA747D9E0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpKrayTiELCImagePicker_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libJpKrayTiELCImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJpKrayTiELCImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E790A7D813A4ACC20031B787 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = Classes/ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		E790A7D913A4ACC20031B787 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAlbumPickerController.m; path = Classes/ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		E790A7DA13A4ACC20031B787 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAsset.h; path = Classes/ELCAsset.h; sourceTree = "<group>"; };
+		E790A7DB13A4ACC20031B787 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAsset.m; path = Classes/ELCAsset.m; sourceTree = "<group>"; };
+		E790A7DC13A4ACC20031B787 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = Classes/ELCAssetCell.h; sourceTree = "<group>"; };
+		E790A7DD13A4ACC20031B787 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetCell.m; path = Classes/ELCAssetCell.m; sourceTree = "<group>"; };
+		E790A7DE13A4ACC20031B787 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetTablePicker.h; path = Classes/ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		E790A7DF13A4ACC20031B787 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetTablePicker.m; path = Classes/ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		E790A7E013A4ACC20031B787 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = Classes/ELCImagePickerController.h; sourceTree = "<group>"; };
+		E790A7E113A4ACC20031B787 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = Classes/ELCImagePickerController.m; sourceTree = "<group>"; };
 		E7B857F613A4A4FC00959E7E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = ../TiELCImagePicker.old/Classes/ELCAlbumPickerController.h; sourceTree = "<group>"; };
-		E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAlbumPickerController.m; path = ../TiELCImagePicker.old/Classes/ELCAlbumPickerController.m; sourceTree = "<group>"; };
-		E7B857FB13A4A54700959E7E /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAsset.h; path = ../TiELCImagePicker.old/Classes/ELCAsset.h; sourceTree = "<group>"; };
-		E7B857FC13A4A54700959E7E /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAsset.m; path = ../TiELCImagePicker.old/Classes/ELCAsset.m; sourceTree = "<group>"; };
-		E7B857FD13A4A54700959E7E /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = ../TiELCImagePicker.old/Classes/ELCAssetCell.h; sourceTree = "<group>"; };
-		E7B857FE13A4A54700959E7E /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetCell.m; path = ../TiELCImagePicker.old/Classes/ELCAssetCell.m; sourceTree = "<group>"; };
-		E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetTablePicker.h; path = ../TiELCImagePicker.old/Classes/ELCAssetTablePicker.h; sourceTree = "<group>"; };
-		E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetTablePicker.m; path = ../TiELCImagePicker.old/Classes/ELCAssetTablePicker.m; sourceTree = "<group>"; };
-		E7B8580113A4A54700959E7E /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = ../TiELCImagePicker.old/Classes/ELCImagePickerController.h; sourceTree = "<group>"; };
-		E7B8580213A4A54700959E7E /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = ../TiELCImagePicker.old/Classes/ELCImagePickerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,16 +138,16 @@
 		E7B857F813A4A52E00959E7E /* ELCImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */,
-				E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */,
-				E7B857FB13A4A54700959E7E /* ELCAsset.h */,
-				E7B857FC13A4A54700959E7E /* ELCAsset.m */,
-				E7B857FD13A4A54700959E7E /* ELCAssetCell.h */,
-				E7B857FE13A4A54700959E7E /* ELCAssetCell.m */,
-				E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */,
-				E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */,
-				E7B8580113A4A54700959E7E /* ELCImagePickerController.h */,
-				E7B8580213A4A54700959E7E /* ELCImagePickerController.m */,
+				E790A7D813A4ACC20031B787 /* ELCAlbumPickerController.h */,
+				E790A7D913A4ACC20031B787 /* ELCAlbumPickerController.m */,
+				E790A7DA13A4ACC20031B787 /* ELCAsset.h */,
+				E790A7DB13A4ACC20031B787 /* ELCAsset.m */,
+				E790A7DC13A4ACC20031B787 /* ELCAssetCell.h */,
+				E790A7DD13A4ACC20031B787 /* ELCAssetCell.m */,
+				E790A7DE13A4ACC20031B787 /* ELCAssetTablePicker.h */,
+				E790A7DF13A4ACC20031B787 /* ELCAssetTablePicker.m */,
+				E790A7E013A4ACC20031B787 /* ELCImagePickerController.h */,
+				E790A7E113A4ACC20031B787 /* ELCImagePickerController.m */,
 			);
 			name = ELCImagePicker;
 			sourceTree = "<group>";
@@ -162,11 +162,11 @@
 				AA747D9F0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* JpKrayTiELCImagePickerModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h in Headers */,
-				E7B8580313A4A54700959E7E /* ELCAlbumPickerController.h in Headers */,
-				E7B8580513A4A54700959E7E /* ELCAsset.h in Headers */,
-				E7B8580713A4A54700959E7E /* ELCAssetCell.h in Headers */,
-				E7B8580913A4A54700959E7E /* ELCAssetTablePicker.h in Headers */,
-				E7B8580B13A4A54700959E7E /* ELCImagePickerController.h in Headers */,
+				E790A7E213A4ACC20031B787 /* ELCAlbumPickerController.h in Headers */,
+				E790A7E413A4ACC20031B787 /* ELCAsset.h in Headers */,
+				E790A7E613A4ACC20031B787 /* ELCAssetCell.h in Headers */,
+				E790A7E813A4ACC20031B787 /* ELCAssetTablePicker.h in Headers */,
+				E790A7EA13A4ACC20031B787 /* ELCImagePickerController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,11 +239,11 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* JpKrayTiELCImagePickerModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m in Sources */,
-				E7B8580413A4A54700959E7E /* ELCAlbumPickerController.m in Sources */,
-				E7B8580613A4A54700959E7E /* ELCAsset.m in Sources */,
-				E7B8580813A4A54700959E7E /* ELCAssetCell.m in Sources */,
-				E7B8580A13A4A54700959E7E /* ELCAssetTablePicker.m in Sources */,
-				E7B8580C13A4A54700959E7E /* ELCImagePickerController.m in Sources */,
+				E790A7E313A4ACC20031B787 /* ELCAlbumPickerController.m in Sources */,
+				E790A7E513A4ACC20031B787 /* ELCAsset.m in Sources */,
+				E790A7E713A4ACC20031B787 /* ELCAssetCell.m in Sources */,
+				E790A7E913A4ACC20031B787 /* ELCAssetTablePicker.m in Sources */,
+				E790A7EB13A4ACC20031B787 /* ELCImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

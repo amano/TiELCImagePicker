@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* JpKrayTiELCImagePickerModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* JpKrayTiELCImagePickerModule.h */; };
+		24DD6CFA1134B3F500162E58 /* JpKrayTiELCImagePickerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* JpKrayTiELCImagePickerModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		E7B857F713A4A4FC00959E7E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B857F613A4A4FC00959E7E /* AssetsLibrary.framework */; };
+		E7B8580313A4A54700959E7E /* ELCAlbumPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */; };
+		E7B8580413A4A54700959E7E /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */; };
+		E7B8580513A4A54700959E7E /* ELCAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FB13A4A54700959E7E /* ELCAsset.h */; };
+		E7B8580613A4A54700959E7E /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FC13A4A54700959E7E /* ELCAsset.m */; };
+		E7B8580713A4A54700959E7E /* ELCAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FD13A4A54700959E7E /* ELCAssetCell.h */; };
+		E7B8580813A4A54700959E7E /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B857FE13A4A54700959E7E /* ELCAssetCell.m */; };
+		E7B8580913A4A54700959E7E /* ELCAssetTablePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */; };
+		E7B8580A13A4A54700959E7E /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */; };
+		E7B8580B13A4A54700959E7E /* ELCImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B8580113A4A54700959E7E /* ELCImagePickerController.h */; };
+		E7B8580C13A4A54700959E7E /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B8580213A4A54700959E7E /* ELCImagePickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = tielcimagepicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* JpKrayTiELCImagePickerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpKrayTiELCImagePickerModule.h; path = Classes/JpKrayTiELCImagePickerModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* JpKrayTiELCImagePickerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpKrayTiELCImagePickerModule.m; path = Classes/JpKrayTiELCImagePickerModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpKrayTiELCImagePickerModuleAssets.h; path = Classes/JpKrayTiELCImagePickerModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpKrayTiELCImagePickerModuleAssets.m; path = Classes/JpKrayTiELCImagePickerModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpKrayTiELCImagePicker_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libJpKrayTiELCImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJpKrayTiELCImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B857F613A4A4FC00959E7E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = ../TiELCImagePicker.old/Classes/ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAlbumPickerController.m; path = ../TiELCImagePicker.old/Classes/ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		E7B857FB13A4A54700959E7E /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAsset.h; path = ../TiELCImagePicker.old/Classes/ELCAsset.h; sourceTree = "<group>"; };
+		E7B857FC13A4A54700959E7E /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAsset.m; path = ../TiELCImagePicker.old/Classes/ELCAsset.m; sourceTree = "<group>"; };
+		E7B857FD13A4A54700959E7E /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetCell.h; path = ../TiELCImagePicker.old/Classes/ELCAssetCell.h; sourceTree = "<group>"; };
+		E7B857FE13A4A54700959E7E /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetCell.m; path = ../TiELCImagePicker.old/Classes/ELCAssetCell.m; sourceTree = "<group>"; };
+		E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAssetTablePicker.h; path = ../TiELCImagePicker.old/Classes/ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCAssetTablePicker.m; path = ../TiELCImagePicker.old/Classes/ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		E7B8580113A4A54700959E7E /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCImagePickerController.h; path = ../TiELCImagePicker.old/Classes/ELCImagePickerController.h; sourceTree = "<group>"; };
+		E7B8580213A4A54700959E7E /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCImagePickerController.m; path = ../TiELCImagePicker.old/Classes/ELCImagePickerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B857F713A4A4FC00959E7E /* AssetsLibrary.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libJpKrayTiELCImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* tielcimagepicker */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = tielcimagepicker;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B857F613A4A4FC00959E7E /* AssetsLibrary.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7B857F813A4A52E00959E7E /* ELCImagePicker */,
+				24DE9E0F11C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* JpKrayTiELCImagePickerModule.h */,
+				24DD6CF81134B3F500162E58 /* JpKrayTiELCImagePickerModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		E7B857F813A4A52E00959E7E /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E7B857F913A4A54700959E7E /* ELCAlbumPickerController.h */,
+				E7B857FA13A4A54700959E7E /* ELCAlbumPickerController.m */,
+				E7B857FB13A4A54700959E7E /* ELCAsset.h */,
+				E7B857FC13A4A54700959E7E /* ELCAsset.m */,
+				E7B857FD13A4A54700959E7E /* ELCAssetCell.h */,
+				E7B857FE13A4A54700959E7E /* ELCAssetCell.m */,
+				E7B857FF13A4A54700959E7E /* ELCAssetTablePicker.h */,
+				E7B8580013A4A54700959E7E /* ELCAssetTablePicker.m */,
+				E7B8580113A4A54700959E7E /* ELCImagePickerController.h */,
+				E7B8580213A4A54700959E7E /* ELCImagePickerController.m */,
+			);
+			name = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* JpKrayTiELCImagePicker_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* JpKrayTiELCImagePickerModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.h in Headers */,
+				E7B8580313A4A54700959E7E /* ELCAlbumPickerController.h in Headers */,
+				E7B8580513A4A54700959E7E /* ELCAsset.h in Headers */,
+				E7B8580713A4A54700959E7E /* ELCAssetCell.h in Headers */,
+				E7B8580913A4A54700959E7E /* ELCAssetTablePicker.h in Headers */,
+				E7B8580B13A4A54700959E7E /* ELCImagePickerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* tielcimagepicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tielcimagepicker" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tielcimagepicker;
+			productName = tielcimagepicker;
+			productReference = D2AAC07E0554694100DB518D /* libJpKrayTiELCImagePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tielcimagepicker" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* tielcimagepicker */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* tielcimagepicker */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* JpKrayTiELCImagePickerModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* JpKrayTiELCImagePickerModuleAssets.m in Sources */,
+				E7B8580413A4A54700959E7E /* ELCAlbumPickerController.m in Sources */,
+				E7B8580613A4A54700959E7E /* ELCAsset.m in Sources */,
+				E7B8580813A4A54700959E7E /* ELCAssetCell.m in Sources */,
+				E7B8580A13A4A54700959E7E /* ELCAssetTablePicker.m in Sources */,
+				E7B8580C13A4A54700959E7E /* ELCImagePickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* tielcimagepicker */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/JpKrayTiELCImagePicker.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpKrayTiELCImagePicker_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = JpKrayTiELCImagePicker;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/JpKrayTiELCImagePicker.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpKrayTiELCImagePicker_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = JpKrayTiELCImagePicker;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tielcimagepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tielcimagepicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

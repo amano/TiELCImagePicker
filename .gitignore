@@ -1,0 +1,6 @@
+tmp
+bin
+build
+*.zip
+tielcimagepicker.xcodeproj/project.xcworkspace
+tielcimagepicker.xcodeproj/xcuserdata

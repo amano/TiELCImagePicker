@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: Titanium ELCImagePickerController
+author: Mitsuhiro Amano
+license: MIT
+copyright: Copyright (c) 2010 by KRAY Inc.
+
+
+# these should not be edited
+name: TiELCImagePicker
+moduleid: jp.kray.ti.ELCImagePicker
+guid: 57aae9d7-78a0-451f-83b6-d74d39160235
+platform: iphone
+minsdk: 1.6.2

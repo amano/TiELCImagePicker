@@ -46,7 +46,7 @@
 		[assetImageView release];
         
         NSString *resourceurl = [[NSBundle mainBundle] resourcePath];
-        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/modules/%@/%@",resourceurl,@"jp.kray.ti.ELCImagePicker",@"Overlay.png"]];
+        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/modules/%@/%@",resourceurl,@"jp.kray.ti.elcimagepicker",@"Overlay.png"]];
         UIImage *overlayImage = [UIImage imageWithContentsOfFile:[url path]];
 		overlayView = [[UIImageView alloc] initWithFrame:viewFrames];
 		[overlayView setImage:overlayImage];

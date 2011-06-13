@@ -9,6 +9,7 @@
 #import "TiHost.h"
 #import "TiUtils.h"
 #import "TiApp.h"
+#import "TiBlob.h"
 #import "ELCAlbumPickerController.h"
 #import "ELCImagePickerController.h"
 
@@ -134,7 +135,8 @@
         NSMutableArray *images = [NSMutableArray array];
         for (NSDictionary *dict in info) {
             UIImage *image = [dict objectForKey:UIImagePickerControllerOriginalImage];
-            [images addObject:image];
+            TiBlob *blob = [[[TiBlob alloc] initWithImage:image] autorelease];
+            [images addObject:blob];
         }
         
 		NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];

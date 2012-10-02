@@ -79,13 +79,12 @@
         };	
                 
         // Enumerate Albums
-        ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];        
-        [library enumerateGroupsWithTypes:ALAssetsGroupAll
+        library_ = [[ALAssetsLibrary alloc] init];
+        [library_ enumerateGroupsWithTypes:ALAssetsGroupAll
                                usingBlock:assetGroupEnumerator 
                              failureBlock:assetGroupEnumberatorFailure];
         
         
-        [library release];
         [pool release];
     });    
 }

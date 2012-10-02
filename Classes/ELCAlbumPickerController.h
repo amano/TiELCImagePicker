@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
 typedef enum ELCAlbumPickerFilter {
     kELCAlbumAllAssets = 0,
@@ -21,6 +22,7 @@ typedef enum ELCAlbumPickerFilter {
     ELCAlbumPickerFilter assetFilter;
     CGFloat cellHeight;
     NSString *titleForSelection;
+    ALAssetsLibrary *library_;
 }
 
 @property (nonatomic, assign) id parent;

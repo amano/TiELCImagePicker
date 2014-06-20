@@ -25,10 +25,10 @@
 
 -(void)setAssets:(NSArray*)_assets {
 	
-	for(UIView *view in [self subviews]) 
+	/*for(UIView *view in [self subviews]) 
     {		
 		[view removeFromSuperview];
-	}
+	}*/
 	
 	self.rowAssets = _assets;
 }
